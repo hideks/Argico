@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Argico | Empréstimo Consignado no Zap</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #003366;
+            /* Azul corporativo tecnológico */
+            --whatsapp-green: #25D366;
+            --text-dark: #1a1a1a;
+            --text-light: #666;
+            --bg-white: #ffffff;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-white);
+            color: var(--text-dark);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        /* Header */
+        header {
+            padding: 40px 10%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .logo {
+            font-size: 32px;
+            font-weight: 700;
+            color: var(--primary-color);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .logo span {
+            color: var(--whatsapp-green);
+        }
+
+        .tagline {
+            font-size: 14px;
+            color: var(--text-light);
+            margin-top: -5px;
+        }
+
+        /* Hero Section */
+        main {
+            min-height: 70vh;
+            display: flex;
+            align-items: center;
+            padding: 0 10%;
+            gap: 50px;
+        }
+
+        .hero-content {
+            flex: 1;
+            max-width: 600px;
+        }
+
+        .hero-visual {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h1 {
+            font-size: 48px;
+            line-height: 1.2;
+            margin-bottom: 20px;
+        }
+
+        p.lead {
+            font-size: 18px;
+            color: var(--text-light);
+            margin-bottom: 40px;
+        }
+
+        /* Floating Icon Animation */
+        .floating-icon {
+            width: 150px;
+            height: 150px;
+            background: var(--whatsapp-green);
+            border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 20px 40px rgba(37, 211, 102, 0.2);
+            animation: float 4s ease-in-out infinite;
+        }
+
+        @keyframes float {
+
+            0%,
+            100% {
+                transform: translateY(0) rotate(0deg);
+            }
+
+            50% {
+                transform: translateY(-20px) rotate(5deg);
+            }
+        }
+
+        /* WhatsApp Button */
+        .cta-button {
+            display: inline-flex;
+            flex-direction: column;
+            align-items: center;
+            text-decoration: none;
+            background-color: var(--whatsapp-green);
+            color: white;
+            padding: 20px 40px;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 20px;
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 25px rgba(37, 211, 102, 0.3);
+        }
+
+        .cta-button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 15px 35px rgba(37, 211, 102, 0.5);
+        }
+
+        .cta-subtext {
+            font-size: 12px;
+            font-weight: 400;
+            margin-top: 5px;
+            opacity: 0.9;
+        }
+
+        /* Footer */
+        footer {
+            padding: 40px 10%;
+            border-top: 1px solid #eee;
+            font-size: 12px;
+            color: var(--text-light);
+            text-align: center;
+        }
+
+        .footer-links {
+            margin-top: 10px;
+        }
+
+        .footer-links a {
+            color: var(--text-light);
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        /* Mobile Responsiveness */
+        @media (max-width: 768px) {
+            main {
+                flex-direction: column-reverse;
+                text-align: center;
+                padding-top: 50px;
+            }
+
+            header {
+                align-items: center;
+            }
+
+            h1 {
+                font-size: 32px;
+            }
+
+            .floating-icon {
+                width: 100px;
+                height: 100px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">Argico<span>.</span></div>
+        <div class="tagline">Empréstimo Consignado no Zap</div>
+    </header>
+
+    <main>
+        <div class="hero-content">
+            <h1>Dinheiro na conta sem burocracia. <br><strong>É papo reto!</strong></h1>
+            <p class="lead">
+                O consignado da <strong>Argico</strong> é 100% via WhatsApp.
+                Nossa IA faz tudo por você, rápido e sem papelada.
+            </p>
+
+            <a href="https://wa.me/5500000000000?text=Olá,%20Argico!%20Quero%20simular%20meu%20empréstimo."
+                class="cta-button">
+                [Quero falar com a Argico agora!]
+                <span class="cta-subtext">(Clica e vem resolver sua vida)</span>
+            </a>
+        </div>
+
+        <div class="hero-visual">
+            <div class="floating-icon">
+                <svg width="60" height="60" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M12 2C6.477 2 2 6.477 2 12c0 1.89.525 3.66 1.438 5.168L2 22l4.957-1.302C8.36 21.577 10.11 22 12 22c5.523 0 10-4.477 10-10S17.523 2 12 2zm0 18c-1.732 0-3.34-.45-4.735-1.24l-.34-.194-2.83.743.757-2.733-.213-.34A7.96 7.96 0 014 12c0-4.411 3.589-8 8-8s8 3.589 8 8-3.589 8-8 8z" />
+                    <path
+                        d="M15.5 11h-7a.5.5 0 000 1h7a.5.5 0 000-1zm0-3h-7a.5.5 0 000 1h7a.5.5 0 000-1zm-4 6h-3a.5.5 0 000 1h3a.5.5 0 000-1z" />
+                </svg>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Argico &copy; 2026. Todos os direitos reservados. | Uma empresa com alma de família. (Arthur, Giovana e
+            Enrico agradecem)</p>
+        <div class="footer-links">
+            <a href="#">Políticas de Privacidade</a> | <a href="#">Termos de Uso</a>
+        </div>
+    </footer>
+
+</body>
+
+</html>
