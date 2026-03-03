@@ -1,0 +1,28 @@
+{
+  "name": "argico",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "type": "module",
+  "main": "index.js",
+  "packageManager": "pnpm@10.30.3",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "biome check",
+    "lint:fix": "biome format --write"
+  },
+  "dependencies": {
+    "next": "^16.1.6",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.4.5",
+    "@types/node": "25.3.3",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "typescript": "5.9.3"
+  }
+}
