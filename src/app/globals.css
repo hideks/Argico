@@ -1,1 +1,30 @@
 @import "tailwindcss";
+
+:root {
+    --primary-color: #003366;
+    --whatsapp-green: #25D366;
+    --text-dark: #1a1a1a;
+    --text-light: #666;
+}
+
+@theme {
+  --color-argico-primary: var(--primary-color);
+  --color-argico-whatsapp: var(--whatsapp-green);
+  --color-argico-dark: var(--text-dark);
+  --color-argico-light: var(--text-light)
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+@keyframes float {
+    0%,
+    100% {
+        transform: translateY(0) rotate(0deg);
+    }
+
+    50% {
+        transform: translateY(-20px) rotate(5deg);
+    }
+}
