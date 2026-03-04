@@ -13,7 +13,7 @@ export default function Page() {
 
                 <a
                     href="https://wa.me/5511919726743?text=Olá,%20Argico!%20Quero%20simular%20meu%20empréstimo."
-                    className="inline-flex flex-col items-center bg-argico-whatsapp text-white px-5 py-10 rounded-[50px] text-xl font-bold transition-all duration-300 ease-in-out shadow-[0_10px_25px_rgba(37,211,102,0.3)] hover:scale-105 hover:shadow-[0_15px_35px_rgba(37,211,102,0.5)]"
+                    className="inline-flex flex-col items-center bg-argico-whatsapp text-white px-5 py-5 rounded-[50px] text-xl font-bold transition-all duration-300 ease-in-out shadow-[0_10px_25px_rgba(37,211,102,0.3)] hover:scale-105 hover:shadow-[0_15px_35px_rgba(37,211,102,0.5)]"
                 >
                     Quero falar com a Argico agora!
                     <span className="text-[12px] font-normal mt-1 opacity-90">(Clica e vem resolver sua vida)</span>
