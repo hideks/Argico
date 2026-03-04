@@ -16,7 +16,7 @@ export default function Footer() {
                     className="mx-2.5"
                     onClick={() => openModal(
                         'Política de Privacidade',
-                        'https://docs.google.com/document/d/1L4u-Eo97DMAYWHYDVPRTsWUg2ivKKTMPI62bBfL1BeI/edit?tab=t.0'
+                        'https://docs.google.com/document/d/e/2PACX-1vTY3ce02GI4TpTB4S_2L5K3UgDcoJEGVFRPtnJsKW5HrGw6iOmyy17hmp4OIenEbrY4w1hZI4qlF1Cc/pub?embedded=true'
                     )}
                 >
                     Política de Privacidade
@@ -28,7 +28,7 @@ export default function Footer() {
                     className="mx-2.5"
                     onClick={() => openModal(
                         'Termos de Uso',
-                        'https://docs.google.com/document/d/11oXJ7eolA1kcyF2L_rvRU9k9p619O5ZeLphIhqkCeuw/edit?tab=t.0'
+                        'https://docs.google.com/document/d/e/2PACX-1vRuswwy1XI5OcW4QMiTmjB4YUHAblBd5T_GxgV5PgtOgAVT1DrqH4IVJuy10EfsG8xjIIsEr7WMNFZT/pub?embedded=true'
                     )}
                 >
                     Termos de Uso
